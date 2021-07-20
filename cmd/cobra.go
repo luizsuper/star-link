@@ -4,11 +4,13 @@ import (
 	"fmt"
 	"github.com/spf13/cobra"
 	"os"
+	"star-link/cmd/corn"
 	"start-link/cmd/api"
 )
 
 func init() {
 	rootCmd.AddCommand(api.StartCmd)
+	rootCmd.AddCommand(corn.StartCmd)
 }
 
 var rootCmd = &cobra.Command{
