@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/spf13/cobra"
 	"os"
+	"star-link/cmd/corn"
 	"start-link/cmd/api"
 	"start-link/cmd/corn"
 )
