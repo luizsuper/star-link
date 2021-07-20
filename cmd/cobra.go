@@ -12,7 +12,7 @@ func init() {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "star-link",
+	Use:   "server",
 	Short: "Git is a distributed version control system.",
 	Long: `Git is a free and open source distributed version control system
 designed to handle everything from small to very large projects 

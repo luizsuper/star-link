@@ -1,12 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"start-link/cmd"
 )
 
 func main() {
-	fmt.Println("hello world")
 	cmd.Execute()
 }
 
