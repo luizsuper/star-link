@@ -5,10 +5,12 @@ import (
 	"github.com/spf13/cobra"
 	"os"
 	"start-link/cmd/api"
+	"start-link/cmd/corn"
 )
 
 func init() {
 	rootCmd.AddCommand(api.StartCmd)
+	rootCmd.AddCommand(corn.StartCmd)
 }
 
 var rootCmd = &cobra.Command{
